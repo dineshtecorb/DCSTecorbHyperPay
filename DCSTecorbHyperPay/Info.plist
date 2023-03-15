@@ -2,6 +2,50 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>DCSTecorbHyperPay</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>tecorb.DCSTecorbHyperPay</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>tecorb.com</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>tecorb.com</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com. DCSTecorbHyperPay</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.</string>
+				<string>DCSTecorbHyperPay</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.tecorb</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.tecorb</string>
+			</array>
+		</dict>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

@@ -1,16 +1,39 @@
 PODS:
+  - Alamofire (5.6.4)
   - IQKeyboardManagerSwift (6.5.11)
+  - Sentry (7.30.2):
+    - Sentry/Core (= 7.30.2)
+  - Sentry/Core (7.30.2)
+  - SwiftyJSON (5.0.1)
 
 DEPENDENCIES:
+  - Alamofire
   - IQKeyboardManagerSwift
+  - Sentry (from `https://github.com/getsentry/sentry-cocoa.git`, tag `7.30.2`)
+  - SwiftyJSON
 
 SPEC REPOS:
   trunk:
+    - Alamofire
     - IQKeyboardManagerSwift
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  Sentry:
+    :git: https://github.com/getsentry/sentry-cocoa.git
+    :tag: 7.30.2
+
+CHECKOUT OPTIONS:
+  Sentry:
+    :git: https://github.com/getsentry/sentry-cocoa.git
+    :tag: 7.30.2
 
 SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
   IQKeyboardManagerSwift: c7955c0bdbf7b2eb29bb7daaa44e3d90f55a9a85
+  Sentry: 9be48e341494bc976c963b05aa4a8ca48308c684
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: e741068d1a2fcf0370d80f74f665d9ac0ea6ecbf
+PODFILE CHECKSUM: 0b74e20ff8d905d913a73895bb47f27f4adc93e1
 
 COCOAPODS: 1.11.3

@@ -7,18 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6155372529C061C5006DF50D /* RequestApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6155372429C061C5006DF50D /* RequestApi.swift */; };
 		615AE69329B9FD1B008C5E7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615AE69229B9FD1B008C5E7A /* AppDelegate.swift */; };
 		615AE69529B9FD1B008C5E7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615AE69429B9FD1B008C5E7A /* SceneDelegate.swift */; };
 		615AE69729B9FD1B008C5E7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615AE69629B9FD1B008C5E7A /* ViewController.swift */; };
 		615AE69A29B9FD1B008C5E7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 615AE69829B9FD1B008C5E7A /* Main.storyboard */; };
 		615AE69C29B9FD1D008C5E7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 615AE69B29B9FD1D008C5E7A /* Assets.xcassets */; };
 		615AE69F29B9FD1D008C5E7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 615AE69D29B9FD1D008C5E7A /* LaunchScreen.storyboard */; };
+		616806B129C1B08F0071DA36 /* PaymentOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616806B029C1B08F0071DA36 /* PaymentOptionsViewController.swift */; };
+		616806B429C1D34D0071DA36 /* ipworks3ds_sdk_deploy.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616806B329C1D34D0071DA36 /* ipworks3ds_sdk_deploy.xcframework */; };
+		617EA1FE29BF3D4300C670E2 /* OPPWAMobile.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 617EA1FC29BF35FE00C670E2 /* OPPWAMobile.xcframework */; };
+		617EA1FF29BF3D4300C670E2 /* OPPWAMobile.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 617EA1FC29BF35FE00C670E2 /* OPPWAMobile.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		617EA20729BF41EC00C670E2 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617EA20629BF41EC00C670E2 /* Constant.swift */; };
+		617EA21A29BF4A1100C670E2 /* BKCardNumberField.m in Sources */ = {isa = PBXBuildFile; fileRef = 617EA20B29BF4A1100C670E2 /* BKCardNumberField.m */; };
+		617EA21B29BF4A1100C670E2 /* BKCardNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 617EA20C29BF4A1100C670E2 /* BKCardNumberFormatter.m */; };
+		617EA21C29BF4A1100C670E2 /* BKForwardingTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 617EA20D29BF4A1100C670E2 /* BKForwardingTextField.m */; };
+		617EA21D29BF4A1100C670E2 /* BKCardNumberLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 617EA20E29BF4A1100C670E2 /* BKCardNumberLabel.m */; };
+		617EA21E29BF4A1100C670E2 /* BKMoneyKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 617EA21129BF4A1100C670E2 /* BKMoneyKit.bundle */; };
+		617EA21F29BF4A1100C670E2 /* BKCardExpiryField.m in Sources */ = {isa = PBXBuildFile; fileRef = 617EA21329BF4A1100C670E2 /* BKCardExpiryField.m */; };
+		617EA22029BF4A1100C670E2 /* BKCardPatternInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 617EA21429BF4A1100C670E2 /* BKCardPatternInfo.m */; };
+		617EA22129BF4A1100C670E2 /* BKMoneyUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 617EA21729BF4A1100C670E2 /* BKMoneyUtils.m */; };
+		617EA22229BF4A1100C670E2 /* BKCurrencyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 617EA21829BF4A1100C670E2 /* BKCurrencyTextField.m */; };
+		617EA22329BF56D100C670E2 /* ipworks3ds_sdk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 617EA20229BF3FA600C670E2 /* ipworks3ds_sdk.xcframework */; };
+		617EA22429BF56D100C670E2 /* ipworks3ds_sdk.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 617EA20229BF3FA600C670E2 /* ipworks3ds_sdk.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A2FB7598E3F5B2F635886F56 /* Pods_DCSTecorbHyperPay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09544522C034782A2606833C /* Pods_DCSTecorbHyperPay.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		617EA20029BF3D4300C670E2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				617EA1FF29BF3D4300C670E2 /* OPPWAMobile.xcframework in Embed Frameworks */,
+				617EA22429BF56D100C670E2 /* ipworks3ds_sdk.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		09544522C034782A2606833C /* Pods_DCSTecorbHyperPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DCSTecorbHyperPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5952DCBFE56046C78BE0E2D6 /* Pods-DCSTecorbHyperPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCSTecorbHyperPay.debug.xcconfig"; path = "Target Support Files/Pods-DCSTecorbHyperPay/Pods-DCSTecorbHyperPay.debug.xcconfig"; sourceTree = "<group>"; };
+		6155372429C061C5006DF50D /* RequestApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestApi.swift; sourceTree = "<group>"; };
 		615AE68F29B9FD1B008C5E7A /* DCSTecorbHyperPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCSTecorbHyperPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		615AE69229B9FD1B008C5E7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		615AE69429B9FD1B008C5E7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,6 +60,30 @@
 		615AE69B29B9FD1D008C5E7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		615AE69E29B9FD1D008C5E7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		615AE6A029B9FD1D008C5E7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		616806B029C1B08F0071DA36 /* PaymentOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentOptionsViewController.swift; sourceTree = "<group>"; };
+		616806B229C1C4760071DA36 /* DCSTecorbHyperPay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DCSTecorbHyperPay.entitlements; sourceTree = "<group>"; };
+		616806B329C1D34D0071DA36 /* ipworks3ds_sdk_deploy.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ipworks3ds_sdk_deploy.xcframework; sourceTree = "<group>"; };
+		617EA1FC29BF35FE00C670E2 /* OPPWAMobile.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = OPPWAMobile.xcframework; sourceTree = "<group>"; };
+		617EA20129BF3E1A00C670E2 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		617EA20229BF3FA600C670E2 /* ipworks3ds_sdk.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ipworks3ds_sdk.xcframework; sourceTree = "<group>"; };
+		617EA20629BF41EC00C670E2 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		617EA20929BF4A1100C670E2 /* BKCardPatternInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKCardPatternInfo.h; sourceTree = "<group>"; };
+		617EA20A29BF4A1100C670E2 /* BKCardExpiryField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKCardExpiryField.h; sourceTree = "<group>"; };
+		617EA20B29BF4A1100C670E2 /* BKCardNumberField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKCardNumberField.m; sourceTree = "<group>"; };
+		617EA20C29BF4A1100C670E2 /* BKCardNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKCardNumberFormatter.m; sourceTree = "<group>"; };
+		617EA20D29BF4A1100C670E2 /* BKForwardingTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKForwardingTextField.m; sourceTree = "<group>"; };
+		617EA20E29BF4A1100C670E2 /* BKCardNumberLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKCardNumberLabel.m; sourceTree = "<group>"; };
+		617EA20F29BF4A1100C670E2 /* BKCurrencyTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKCurrencyTextField.h; sourceTree = "<group>"; };
+		617EA21029BF4A1100C670E2 /* BKMoneyUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKMoneyUtils.h; sourceTree = "<group>"; };
+		617EA21129BF4A1100C670E2 /* BKMoneyKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BKMoneyKit.bundle; sourceTree = "<group>"; };
+		617EA21229BF4A1100C670E2 /* BKCardNumberField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKCardNumberField.h; sourceTree = "<group>"; };
+		617EA21329BF4A1100C670E2 /* BKCardExpiryField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKCardExpiryField.m; sourceTree = "<group>"; };
+		617EA21429BF4A1100C670E2 /* BKCardPatternInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKCardPatternInfo.m; sourceTree = "<group>"; };
+		617EA21529BF4A1100C670E2 /* BKForwardingTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKForwardingTextField.h; sourceTree = "<group>"; };
+		617EA21629BF4A1100C670E2 /* BKCardNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKCardNumberFormatter.h; sourceTree = "<group>"; };
+		617EA21729BF4A1100C670E2 /* BKMoneyUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKMoneyUtils.m; sourceTree = "<group>"; };
+		617EA21829BF4A1100C670E2 /* BKCurrencyTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKCurrencyTextField.m; sourceTree = "<group>"; };
+		617EA21929BF4A1100C670E2 /* BKCardNumberLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKCardNumberLabel.h; sourceTree = "<group>"; };
 		877BB94820833334D444D743 /* Pods-DCSTecorbHyperPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCSTecorbHyperPay.release.xcconfig"; path = "Target Support Files/Pods-DCSTecorbHyperPay/Pods-DCSTecorbHyperPay.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -36,6 +93,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2FB7598E3F5B2F635886F56 /* Pods_DCSTecorbHyperPay.framework in Frameworks */,
+				617EA1FE29BF3D4300C670E2 /* OPPWAMobile.xcframework in Frameworks */,
+				616806B429C1D34D0071DA36 /* ipworks3ds_sdk_deploy.xcframework in Frameworks */,
+				617EA22329BF56D100C670E2 /* ipworks3ds_sdk.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +105,9 @@
 		25F0F195F1393CC503169D15 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				616806B329C1D34D0071DA36 /* ipworks3ds_sdk_deploy.xcframework */,
+				617EA20229BF3FA600C670E2 /* ipworks3ds_sdk.xcframework */,
+				617EA1FC29BF35FE00C670E2 /* OPPWAMobile.xcframework */,
 				09544522C034782A2606833C /* Pods_DCSTecorbHyperPay.framework */,
 			);
 			name = Frameworks;
@@ -71,15 +134,45 @@
 		615AE69129B9FD1B008C5E7A /* DCSTecorbHyperPay */ = {
 			isa = PBXGroup;
 			children = (
+				616806B229C1C4760071DA36 /* DCSTecorbHyperPay.entitlements */,
+				617EA20829BF4A1100C670E2 /* BKMoneyKit */,
 				615AE69229B9FD1B008C5E7A /* AppDelegate.swift */,
 				615AE69429B9FD1B008C5E7A /* SceneDelegate.swift */,
 				615AE69629B9FD1B008C5E7A /* ViewController.swift */,
+				6155372429C061C5006DF50D /* RequestApi.swift */,
 				615AE69829B9FD1B008C5E7A /* Main.storyboard */,
 				615AE69B29B9FD1D008C5E7A /* Assets.xcassets */,
 				615AE69D29B9FD1D008C5E7A /* LaunchScreen.storyboard */,
 				615AE6A029B9FD1D008C5E7A /* Info.plist */,
+				617EA20129BF3E1A00C670E2 /* BridgingHeader.h */,
+				617EA20629BF41EC00C670E2 /* Constant.swift */,
+				616806B029C1B08F0071DA36 /* PaymentOptionsViewController.swift */,
 			);
 			path = DCSTecorbHyperPay;
+			sourceTree = "<group>";
+		};
+		617EA20829BF4A1100C670E2 /* BKMoneyKit */ = {
+			isa = PBXGroup;
+			children = (
+				617EA20929BF4A1100C670E2 /* BKCardPatternInfo.h */,
+				617EA20A29BF4A1100C670E2 /* BKCardExpiryField.h */,
+				617EA20B29BF4A1100C670E2 /* BKCardNumberField.m */,
+				617EA20C29BF4A1100C670E2 /* BKCardNumberFormatter.m */,
+				617EA20D29BF4A1100C670E2 /* BKForwardingTextField.m */,
+				617EA20E29BF4A1100C670E2 /* BKCardNumberLabel.m */,
+				617EA20F29BF4A1100C670E2 /* BKCurrencyTextField.h */,
+				617EA21029BF4A1100C670E2 /* BKMoneyUtils.h */,
+				617EA21129BF4A1100C670E2 /* BKMoneyKit.bundle */,
+				617EA21229BF4A1100C670E2 /* BKCardNumberField.h */,
+				617EA21329BF4A1100C670E2 /* BKCardExpiryField.m */,
+				617EA21429BF4A1100C670E2 /* BKCardPatternInfo.m */,
+				617EA21529BF4A1100C670E2 /* BKForwardingTextField.h */,
+				617EA21629BF4A1100C670E2 /* BKCardNumberFormatter.h */,
+				617EA21729BF4A1100C670E2 /* BKMoneyUtils.m */,
+				617EA21829BF4A1100C670E2 /* BKCurrencyTextField.m */,
+				617EA21929BF4A1100C670E2 /* BKCardNumberLabel.h */,
+			);
+			path = BKMoneyKit;
 			sourceTree = "<group>";
 		};
 		F4C2973EFA69C244280236C8 /* Pods */ = {
@@ -88,7 +181,6 @@
 				5952DCBFE56046C78BE0E2D6 /* Pods-DCSTecorbHyperPay.debug.xcconfig */,
 				877BB94820833334D444D743 /* Pods-DCSTecorbHyperPay.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -104,6 +196,7 @@
 				615AE68C29B9FD1B008C5E7A /* Frameworks */,
 				615AE68D29B9FD1B008C5E7A /* Resources */,
 				F1CD59A05F1EE0B0DB869402 /* [CP] Embed Pods Frameworks */,
+				617EA20029BF3D4300C670E2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +247,7 @@
 			files = (
 				615AE69F29B9FD1D008C5E7A /* LaunchScreen.storyboard in Resources */,
 				615AE69C29B9FD1D008C5E7A /* Assets.xcassets in Resources */,
+				617EA21E29BF4A1100C670E2 /* BKMoneyKit.bundle in Resources */,
 				615AE69A29B9FD1B008C5E7A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,9 +301,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				617EA22129BF4A1100C670E2 /* BKMoneyUtils.m in Sources */,
+				617EA22229BF4A1100C670E2 /* BKCurrencyTextField.m in Sources */,
+				617EA21B29BF4A1100C670E2 /* BKCardNumberFormatter.m in Sources */,
 				615AE69729B9FD1B008C5E7A /* ViewController.swift in Sources */,
+				617EA21C29BF4A1100C670E2 /* BKForwardingTextField.m in Sources */,
+				617EA21A29BF4A1100C670E2 /* BKCardNumberField.m in Sources */,
 				615AE69329B9FD1B008C5E7A /* AppDelegate.swift in Sources */,
+				6155372529C061C5006DF50D /* RequestApi.swift in Sources */,
+				616806B129C1B08F0071DA36 /* PaymentOptionsViewController.swift in Sources */,
 				615AE69529B9FD1B008C5E7A /* SceneDelegate.swift in Sources */,
+				617EA21F29BF4A1100C670E2 /* BKCardExpiryField.m in Sources */,
+				617EA21D29BF4A1100C670E2 /* BKCardNumberLabel.m in Sources */,
+				617EA20729BF41EC00C670E2 /* Constant.swift in Sources */,
+				617EA22029BF4A1100C670E2 /* BKCardPatternInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +460,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DCSTecorbHyperPay/DCSTecorbHyperPay.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AJ67RUJC7P;
@@ -373,6 +479,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tecorb.DCSTecorbHyperPay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/dineshsaini_tecorb/Desktop/Dinesh/Dinesh/OwnThirdParties/DCSTecorbHyperPay/DCSTecorbHyperPay/DCSTecorbHyperPay/BridgingHeader.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -384,6 +491,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DCSTecorbHyperPay/DCSTecorbHyperPay.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AJ67RUJC7P;
@@ -402,6 +510,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tecorb.DCSTecorbHyperPay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/dineshsaini_tecorb/Desktop/Dinesh/Dinesh/OwnThirdParties/DCSTecorbHyperPay/DCSTecorbHyperPay/DCSTecorbHyperPay/BridgingHeader.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
