@@ -281,7 +281,6 @@ extension ViewController{
     }
     func handleTransactionSubmission(transaction: OPPTransaction?, error: Error?) {
         guard let transaction = transaction else {
-            //AppSettings.shared.hideLoader()
             self.showPaymentAlertPendingDetail(error!.localizedDescription)
             return
         }
