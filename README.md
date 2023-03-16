@@ -10,13 +10,13 @@ This Demo will help you through the integration of a native payment experience i
 
 Accepting payment in your app involves 4 steps:
 
-**1. Preparing checkout (configure with amount, currency and other information),
+**1. Preparing checkout (configure with amount, currency and other information),**
 
-**2. Collecting shopper payment details,
+**2. Collecting shopper payment details,**
 
-**3. Creating and submitting transaction,
+**3. Creating and submitting transaction,**
 
-**4. Requesting payment result.
+**4. Requesting payment result.**
 
 iOS SDK provide tools to help you with steps 2 and 3.
 
@@ -30,11 +30,11 @@ Make sure "Copy items if needed" is checked.
 2. Check **"Frameworks, Libraries, and Embedded Content"** section under the general settings tab of your application's target. **Ensure** the Embed dropdown has **Embed and Sign** selected for the framework.
 
 
-**You can now import the framework with:
+**You can now import the framework with:**
 
 ``#import <OPPWAMobile/OPPWAMobile.h>``
 
-**3. Import sdk in header file
+**3. Import sdk in header file**
 
 
 
