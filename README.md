@@ -36,10 +36,15 @@ Make sure "Copy items if needed" is checked.
 
 3. Import sdk in **header file**
 
+In your checkout controller or wherever else you handle payments, create the OPPPaymentProvider variable and initialize it with test mode, e.g. in the viewDidLoad method:
+
 ``
 override func viewDidLoad() {
+
     super.viewDidLoad()
+    
     let provider = OPPPaymentProvider(mode: .test)
+    
 }``
 
 ## Set Up Your Server
@@ -47,6 +52,7 @@ override func viewDidLoad() {
 To start working with hyperpay SDK, you should expose two APIs on your backend for your app to communicate with:
 
 **Endpoint 1:** Creating a checkout ID,
+
 **Endpoint 2:** Getting result of payment.
 
 
