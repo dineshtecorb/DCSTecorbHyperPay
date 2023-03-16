@@ -38,8 +38,7 @@ Make sure "Copy items if needed" is checked.
 
 In your checkout controller or wherever else you handle payments, create the OPPPaymentProvider variable and initialize it with test mode, e.g. in the viewDidLoad method:
 
-``
-override func viewDidLoad() {
+``override func viewDidLoad() {
 
     super.viewDidLoad()
     
