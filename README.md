@@ -58,12 +58,12 @@ To start working with hyperpay SDK, you should expose two APIs on your backend f
 **Endpoint 2:** Getting result of payment.
 
 
-##Request Checkout ID
+## Request Checkout ID
 
 Your app should request a checkout ID from your server. This example uses our sample integration server; please adapt it to use your own backend API.
 
 
-##Collect and validate shopper payment details
+## Collect and validate shopper payment details
 
 First you need to create an OPPPaymentParams object and initialize it with collected shopper payment details, it's required for processing a transaction.
 
@@ -89,7 +89,7 @@ if !OPPCardPaymentParams.isNumberValid("4200 0000 0000 0000", luhnCheck: true) {
 }
 ```
 
-##Submit a transaction
+## Submit a transaction
 
 Create a transaction with the collected valid payment parameters. Then submit it using OPPPaymentProvider method and implement the callback.
 
@@ -117,7 +117,7 @@ provider.submitTransaction(transaction) { (transaction, error) in
 }
 ```
 
-##Request Payment Status
+## Request Payment Status
 
 Finally your app should request the payment status from your server (again, adapt this example to your own setup).
 
