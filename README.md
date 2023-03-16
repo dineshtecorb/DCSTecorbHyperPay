@@ -45,7 +45,8 @@ In your checkout controller or wherever else you handle payments, create the OPP
     
     let provider = OPPPaymentProvider(mode: .test)
     
-    }```
+    }
+```
 
 
 ## Set Up Your Server
