@@ -14,6 +14,7 @@
 		615AE69A29B9FD1B008C5E7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 615AE69829B9FD1B008C5E7A /* Main.storyboard */; };
 		615AE69C29B9FD1D008C5E7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 615AE69B29B9FD1D008C5E7A /* Assets.xcassets */; };
 		615AE69F29B9FD1D008C5E7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 615AE69D29B9FD1D008C5E7A /* LaunchScreen.storyboard */; };
+		6166D13929C2F4DF00955D21 /* HyperPayDoc.text in Resources */ = {isa = PBXBuildFile; fileRef = 6166D13829C2F4DF00955D21 /* HyperPayDoc.text */; };
 		616806B129C1B08F0071DA36 /* PaymentOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616806B029C1B08F0071DA36 /* PaymentOptionsViewController.swift */; };
 		616806B429C1D34D0071DA36 /* ipworks3ds_sdk_deploy.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616806B329C1D34D0071DA36 /* ipworks3ds_sdk_deploy.xcframework */; };
 		617EA1FE29BF3D4300C670E2 /* OPPWAMobile.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 617EA1FC29BF35FE00C670E2 /* OPPWAMobile.xcframework */; };
@@ -60,6 +61,7 @@
 		615AE69B29B9FD1D008C5E7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		615AE69E29B9FD1D008C5E7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		615AE6A029B9FD1D008C5E7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6166D13829C2F4DF00955D21 /* HyperPayDoc.text */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = HyperPayDoc.text; sourceTree = "<group>"; };
 		616806B029C1B08F0071DA36 /* PaymentOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentOptionsViewController.swift; sourceTree = "<group>"; };
 		616806B229C1C4760071DA36 /* DCSTecorbHyperPay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DCSTecorbHyperPay.entitlements; sourceTree = "<group>"; };
 		616806B329C1D34D0071DA36 /* ipworks3ds_sdk_deploy.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ipworks3ds_sdk_deploy.xcframework; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 		615AE68629B9FD1B008C5E7A = {
 			isa = PBXGroup;
 			children = (
+				6166D13729C2F4AC00955D21 /* Documentation */,
 				615AE69129B9FD1B008C5E7A /* DCSTecorbHyperPay */,
 				615AE69029B9FD1B008C5E7A /* Products */,
 				F4C2973EFA69C244280236C8 /* Pods */,
@@ -149,6 +152,14 @@
 				616806B029C1B08F0071DA36 /* PaymentOptionsViewController.swift */,
 			);
 			path = DCSTecorbHyperPay;
+			sourceTree = "<group>";
+		};
+		6166D13729C2F4AC00955D21 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				6166D13829C2F4DF00955D21 /* HyperPayDoc.text */,
+			);
+			path = Documentation;
 			sourceTree = "<group>";
 		};
 		617EA20829BF4A1100C670E2 /* BKMoneyKit */ = {
@@ -245,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6166D13929C2F4DF00955D21 /* HyperPayDoc.text in Resources */,
 				615AE69F29B9FD1D008C5E7A /* LaunchScreen.storyboard in Resources */,
 				615AE69C29B9FD1D008C5E7A /* Assets.xcassets in Resources */,
 				617EA21E29BF4A1100C670E2 /* BKMoneyKit.bundle in Resources */,
