@@ -135,7 +135,7 @@ self.provider.requestCheckoutInfo(withCheckoutID: checkoutId, completionHandler:
 ```
 
 
-##Go to Production
+## Go to Production
 
 1. Talk to your account manager to get the live credentials.
 
