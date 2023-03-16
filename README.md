@@ -10,7 +10,7 @@ This Demo will help you through the integration of a native payment experience i
 
 Accepting payment in your app involves 4 steps:
 
-**1. Preparing checkout (configure with amount, currency and other information),**
+**1. Preparing checkout** (configure with amount, currency and other information),
 
 **2. Collecting shopper payment details,**
 
@@ -34,7 +34,21 @@ Make sure "Copy items if needed" is checked.
 
 ``#import <OPPWAMobile/OPPWAMobile.h>``
 
-**3. Import sdk in header file**
+3. Import sdk in **header file**
+
+``
+override func viewDidLoad() {
+    super.viewDidLoad()
+    let provider = OPPPaymentProvider(mode: .test)
+}``
+
+## Set Up Your Server
+
+To start working with hyperpay SDK, you should expose two APIs on your backend for your app to communicate with:
+
+**Endpoint 1:** Creating a checkout ID,
+**Endpoint 2:** Getting result of payment.
+
 
 
 
